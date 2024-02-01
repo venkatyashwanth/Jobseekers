@@ -1,0 +1,271 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+/* Scroll-bar-start */
+/* width */
+::-webkit-scrollbar {
+  width: 0rem; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; }
+
+/* Scroll-bar-end */
+@font-face {
+  font-family: 'DM Sans 9pt';
+  src: url("../assets/fonts/dm_sans/DMSans-9ptRegular.eot");
+  src: url("../assets/fonts/dm_sans/DMSans-9ptRegular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/dm_sans/DMSans-9ptRegular.woff2") format("woff2"), url("../assets/fonts/dm_sans/DMSans-9ptRegular.woff") format("woff"), url("../assets/fonts/dm_sans/DMSans-9ptRegular.ttf") format("truetype"), url("../assets/fonts/dm_sans/DMSans-9ptRegular.svg#DMSans-9ptRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url("../assets/fonts/dm_sans/DMSans-Italic.eot");
+  src: url("../assets/fonts/dm_sans/DMSans-Italic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/dm_sans/DMSans-Italic.woff2") format("woff2"), url("../assets/fonts/dm_sans/DMSans-Italic.woff") format("woff"), url("../assets/fonts/dm_sans/DMSans-Italic.ttf") format("truetype"), url("../assets/fonts/dm_sans/DMSans-Italic.svg#DMSans-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'DM Sans Bold';
+  src: url("../assets/fonts/dm_sans/DMSans-Bold.eot");
+  src: url("../assets/fonts/dm_sans/DMSans-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/dm_sans/DMSans-Bold.woff2") format("woff2"), url("../assets/fonts/dm_sans/DMSans-Bold.woff") format("woff"), url("../assets/fonts/dm_sans/DMSans-Bold.ttf") format("truetype"), url("../assets/fonts/dm_sans/DMSans-Bold.svg#DMSans-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url("../assets/fonts/dm_sans/DMSans-BoldItalic.eot");
+  src: url("../assets/fonts/dm_sans/DMSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/dm_sans/DMSans-BoldItalic.woff2") format("woff2"), url("../assets/fonts/dm_sans/DMSans-BoldItalic.woff") format("woff"), url("../assets/fonts/dm_sans/DMSans-BoldItalic.ttf") format("truetype"), url("../assets/fonts/dm_sans/DMSans-BoldItalic.svg#DMSans-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'DM Sans 9pt';
+  src: url("../assets/fonts/dm_sans/DMSans-9ptItalic.eot");
+  src: url("../assets/fonts/dm_sans/DMSans-9ptItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/dm_sans/DMSans-9ptItalic.woff2") format("woff2"), url("../assets/fonts/dm_sans/DMSans-9ptItalic.woff") format("woff"), url("../assets/fonts/dm_sans/DMSans-9ptItalic.ttf") format("truetype"), url("../assets/fonts/dm_sans/DMSans-9ptItalic.svg#DMSans-9ptItalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url("../assets/fonts/dm_sans/DMSans-Regular.eot");
+  src: url("../assets/fonts/dm_sans/DMSans-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/dm_sans/DMSans-Regular.woff2") format("woff2"), url("../assets/fonts/dm_sans/DMSans-Regular.woff") format("woff"), url("../assets/fonts/dm_sans/DMSans-Regular.ttf") format("truetype"), url("../assets/fonts/dm_sans/DMSans-Regular.svg#DMSans-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'DM Sans Medium';
+  src: url("../assets/fonts/dm_sans/DMSans-Medium.eot");
+  src: url("../assets/fonts/dm_sans/DMSans-Medium.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/dm_sans/DMSans-Medium.woff2") format("woff2"), url("../assets/fonts/dm_sans/DMSans-Medium.woff") format("woff"), url("../assets/fonts/dm_sans/DMSans-Medium.ttf") format("truetype"), url("../assets/fonts/dm_sans/DMSans-Medium.svg#DMSans-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url("../assets/fonts/dm_sans/DMSans-MediumItalic.eot");
+  src: url("../assets/fonts/dm_sans/DMSans-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/dm_sans/DMSans-MediumItalic.woff2") format("woff2"), url("../assets/fonts/dm_sans/DMSans-MediumItalic.woff") format("woff"), url("../assets/fonts/dm_sans/DMSans-MediumItalic.ttf") format("truetype"), url("../assets/fonts/dm_sans/DMSans-MediumItalic.svg#DMSans-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'ProductSans-Bold';
+  src: url("../assets/fonts/product_sans/ProductSans-Bold.eot");
+  src: url("../assets/fonts/product_sans/ProductSans-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/product_sans/ProductSans-Bold.woff2") format("woff2"), url("../assets/fonts/product_sans/ProductSans-Bold.woff") format("woff"), url("../assets/fonts/product_sans/ProductSans-Bold.ttf") format("truetype"), url("../assets/fonts/product_sans/ProductSans-Bold.svg") format("svg");
+  font-weight: 600;
+  font-style: bold;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'ProductSans-BoldItalic';
+  src: url("../assets/fonts/product_sans/ProductSans-BoldItalic.eot");
+  src: url("../assets/fonts/product_sans/ProductSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/product_sans/ProductSans-BoldItalic.woff2") format("woff2"), url("../assets/fonts/product_sans/ProductSans-BoldItalic.woff") format("woff"), url("../assets/fonts/product_sans/ProductSans-BoldItalic.ttf") format("truetype"), url("../assets/fonts/product_sans/ProductSans-BoldItalic.svg") format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'ProductSans-Italic';
+  src: url("../assets/fonts/product_sans/ProductSans-Italic.eot");
+  src: url("../assets/fonts/product_sans/ProductSans-Italic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/product_sans/ProductSans-Italic.woff2") format("woff2"), url("../assets/fonts/product_sans/ProductSans-Italic.woff") format("woff"), url("../assets/fonts/product_sans/ProductSans-Italic.ttf") format("truetype"), url("../assets/fonts/product_sans/ProductSans-Italic.svg") format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'ProductSans-Italic';
+  src: url("../assets/fonts/product_sans/ProductSans-Regular.eot");
+  src: url("../assets/fonts/product_sans/ProductSans-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/product_sans/ProductSans-Regular.woff2") format("woff2"), url("../assets/fonts/product_sans/ProductSans-Regular.woff") format("woff"), url("../assets/fonts/product_sans/ProductSans-Regular.ttf") format("truetype"), url("../assets/fonts/product_sans/ProductSans-Regular.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+h1, h2, p {
+  margin-bottom: 0 !important; }
+
+.landing-details-heading {
+  font-family: "DM Sans Bold";
+  font-size: 3.2rem;
+  line-height: 4.1rem;
+  text-align: center;
+  color: #fff; }
+
+.landing-details-desc {
+  font-family: "DM Sans Medium";
+  font-size: 2rem;
+  line-height: 2.6rem;
+  text-align: center;
+  color: #fff; }
+
+.u-mb-sm {
+  margin-bottom: 1rem !important; }
+
+.login-page {
+  display: flex;
+  height: 100vh;
+  max-height: 100vh;
+  background-color: #fff; }
+  .login-page__block-1 {
+    width: 50%;
+    height: 100%;
+    overflow-y: scroll; }
+  .login-page__block-2 {
+    width: 50%;
+    height: 100%; }
+  .login-page__landingImageBlock {
+    height: 100%;
+    width: 100%;
+    position: relative; }
+  .login-page__image-wrapper {
+    height: inherit;
+    width: inherit;
+    border-top-left-radius: 3.5rem;
+    border-bottom-left-radius: 3.5rem;
+    overflow: hidden;
+    position: relative; }
+    .login-page__image-wrapper img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%; }
+    .login-page__image-wrapper::after {
+      content: '';
+      position: absolute;
+      background: linear-gradient(0deg, rgba(0, 87, 255, 0.7) 0%, rgba(0, 87, 255, 0.7) 100%);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+  .login-page__landingpage-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%; }
+
+.login-form-container {
+  padding: 70px 0px;
+  width: 100%; }
+
+.logo-container {
+  margin-bottom: 48px; }
+
+.job-seeker-logo {
+  width: 40px;
+  height: 40px; }
+
+.job-seeker-heading {
+  font-size: 26px;
+  font-style: normal;
+  line-height: normal;
+  margin-left: 10px;
+  margin-bottom: 0; }
+
+.login-heading {
+  font-size: 26px;
+  font-style: normal; }
+
+.login-desc {
+  font-size: 16px;
+  font-style: normal; }
+
+.form-container {
+  margin-top: 40px; }
+
+.input-box {
+  border-radius: 10px !important;
+  border: 0 !important;
+  background-color: #F5F7FB !important;
+  padding: 10px 20px !important; }
+
+.input-box::placeholder {
+  font-family: "DM Sans";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px; }
+
+.form-field {
+  margin-bottom: 27px; }
+
+.password-field {
+  margin-bottom: 40px; }
+
+.password-box {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important; }
+
+.eye-icon {
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  border: 0 !important;
+  background-color: #F5F7FB !important; }
+
+.forgot-password-link-container {
+  margin-bottom: 40px; }
+
+.forgot-password-link {
+  font-size: 14px;
+  font-style: normal; }
+
+.form-text-link {
+  color: #3756F3; }
+
+.login-btn-container {
+  margin-bottom: 346px; }
+
+.login-btn {
+  background-color: #3756F3 !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  padding: 10px 30px !important;
+  color: #ffffff !important;
+  border-radius: 10px !important;
+  /* margin-top:40px; */ }
+
+.create-account-text {
+  font-size: 18px; }

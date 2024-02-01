@@ -1,0 +1,60 @@
+.login-page {
+    display: flex;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: $color-white;
+
+
+    &__block-1 {
+        width: 50%;
+        height: 100%;
+        overflow-y: scroll;
+
+        
+    }
+
+    &__block-2 {
+        width: 50%;
+        height: 100%;
+    }
+
+    &__landingImageBlock {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    &__image-wrapper {
+        height: inherit;
+        width: inherit;
+        border-top-left-radius: 3.5rem;
+        border-bottom-left-radius: 3.5rem;
+        overflow: hidden;
+
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            background: linear-gradient(0deg, rgba($color-primary, 0.7) 0%, rgba($color-primary, 0.7) 100%);
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    }
+
+    &__landingpage-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 85%;
+    }
+}

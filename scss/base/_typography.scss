@@ -1,0 +1,22 @@
+h1,h2,p{
+    margin-bottom: 0 !important;
+}
+
+.landing-details-heading{
+    font-family: $primary-font-bold;
+    font-size: 3.2rem;
+    line-height: 4.1rem;
+    text-align: center;
+    color: $color-white;
+}
+
+
+.landing-details-desc{
+    font-family: $primary-font-medium;
+    font-size:2rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: $color-white;
+
+    // text-wrap: nowrap;
+}
