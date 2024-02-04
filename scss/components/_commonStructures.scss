@@ -1,0 +1,108 @@
+.form-wrapper {
+    width: 42.8rem;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.brandlogo_name {
+    display: flex;
+    align-items: center;
+}
+
+// For 45%: 
+$m1-top-default: 4.8rem;
+$m1-top-custom1: 2.64rem;
+
+$m2-top-default: 4rem;  
+$m2-top-custom1: 2.2rem;
+
+$m3-top-default: 26rem;
+$m3-top-custom1: 14.3rem;
+
+$m1-bottom-default: 3rem;
+$m1-bottom-custom1: 1.65rem;
+
+
+.form__heading-description {
+    margin-top: $m1-top-default;
+
+    /* HeightAdjustment - With Height */
+    @media (max-height: 899px) {
+        margin-top: $m1-top-custom1;
+    }
+
+    .heading {
+        font-family: $primary-font-bold;
+        font-size: 2.6rem;
+        color: $color-dark;
+        line-height: 3.385rem;
+        margin-bottom: .9rem !important;
+    }
+
+    .description {
+        font-family: $primary-font-medium;
+        color: $color-gray;
+        font-size: 1.6rem;
+        line-height: 2.083rem;
+    }
+}
+
+.form-content {
+    width: 100%;
+    margin-top: $m2-top-default;
+
+    /* HeightAdjustment - With Height */
+    @media (max-height: 899px) {
+        margin-top: $m2-top-custom1;
+    }
+
+
+    .block-1 {
+        height: 18.3rem;
+        background-color: gray;
+    }
+
+    .linkElement {
+        margin-top: $m2-top-default;
+        height: 1.8rem;
+        background-color: gray;
+
+        /* HeightAdjustment - With Height */
+        @media (max-height: 899px) {
+            margin-top: $m2-top-custom1;
+        }
+
+    }
+
+    .buttonElement {
+        margin-top: $m2-top-default;
+        height: 4.3rem;
+        background-color: gray;
+
+        /* HeightAdjustment - With Height */
+        @media (max-height: 899px) {
+            margin-top: $m2-top-custom1;
+        }
+
+    }
+}
+
+.form-message {
+    // margin-top: $m3-top-default;
+
+    // margin-top: auto;
+    height: 2.3rem;
+    width: 100%;
+    background-color: red;
+    margin-bottom: $m1-bottom-default;
+
+    /* HeightAdjustment - With Height */
+    @media (max-height: 899px) {
+        margin-bottom: $m1-bottom-custom1;
+    }
+
+}

@@ -97,7 +97,7 @@ body {
   font-family: 'ProductSans-Bold';
   src: url("../assets/fonts/product_sans/ProductSans-Bold.eot");
   src: url("../assets/fonts/product_sans/ProductSans-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/product_sans/ProductSans-Bold.woff2") format("woff2"), url("../assets/fonts/product_sans/ProductSans-Bold.woff") format("woff"), url("../assets/fonts/product_sans/ProductSans-Bold.ttf") format("truetype"), url("../assets/fonts/product_sans/ProductSans-Bold.svg") format("svg");
-  font-weight: 600;
+  font-weight: 700;
   font-style: bold;
   font-display: swap; }
 
@@ -128,6 +128,14 @@ body {
 h1, h2, p {
   margin-bottom: 0 !important; }
 
+.brandTitleHeading {
+  font-family: "ProductSans-Bold";
+  font-size: 2.6rem;
+  line-height: 3.15rem;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  margin-bottom: 0; }
+
 .landing-details-heading {
   font-family: "DM Sans Bold";
   font-size: 3.2rem;
@@ -145,17 +153,82 @@ h1, h2, p {
 .u-mb-sm {
   margin-bottom: 1rem !important; }
 
-.login-page {
+.form-wrapper {
+  width: 42.8rem;
+  margin: 0 auto;
+  height: 100%;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.brandlogo_name {
+  display: flex;
+  align-items: center; }
+
+.form__heading-description {
+  margin-top: 4.8rem;
+  /* HeightAdjustment - With Height */ }
+  @media (max-height: 899px) {
+    .form__heading-description {
+      margin-top: 2.64rem; } }
+  .form__heading-description .heading {
+    font-family: "DM Sans Bold";
+    font-size: 2.6rem;
+    color: #10172A;
+    line-height: 3.385rem;
+    margin-bottom: .9rem !important; }
+  .form__heading-description .description {
+    font-family: "DM Sans Medium";
+    color: #334253;
+    font-size: 1.6rem;
+    line-height: 2.083rem; }
+
+.form-content {
+  width: 100%;
+  margin-top: 4rem;
+  /* HeightAdjustment - With Height */ }
+  @media (max-height: 899px) {
+    .form-content {
+      margin-top: 2.2rem; } }
+  .form-content .block-1 {
+    height: 18.3rem;
+    background-color: gray; }
+  .form-content .linkElement {
+    margin-top: 4rem;
+    height: 1.8rem;
+    background-color: gray;
+    /* HeightAdjustment - With Height */ }
+    @media (max-height: 899px) {
+      .form-content .linkElement {
+        margin-top: 2.2rem; } }
+  .form-content .buttonElement {
+    margin-top: 4rem;
+    height: 4.3rem;
+    background-color: gray;
+    /* HeightAdjustment - With Height */ }
+    @media (max-height: 899px) {
+      .form-content .buttonElement {
+        margin-top: 2.2rem; } }
+
+.form-message {
+  height: 2.3rem;
+  width: 100%;
+  background-color: red;
+  margin-bottom: 3rem;
+  /* HeightAdjustment - With Height */ }
+  @media (max-height: 899px) {
+    .form-message {
+      margin-bottom: 1.65rem; } }
+
+.login-page {
   height: 100vh;
   max-height: 100vh;
   background-color: #fff; }
   .login-page__block-1 {
-    width: 50%;
     height: 100%;
-    overflow-y: scroll; }
+    overflow-y: scroll;
+    padding-top: 7rem; }
   .login-page__block-2 {
-    width: 50%;
     height: 100%; }
   .login-page__landingImageBlock {
     height: 100%;
