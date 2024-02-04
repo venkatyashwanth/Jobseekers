@@ -17,7 +17,7 @@
 $m1-top-default: 4.8rem;
 $m1-top-custom1: 2.64rem;
 
-$m2-top-default: 4rem;  
+$m2-top-default: 4rem;
 $m2-top-custom1: 2.2rem;
 
 $m3-top-default: 26rem;
@@ -63,13 +63,11 @@ $m1-bottom-custom1: 1.65rem;
 
     .block-1 {
         height: 18.3rem;
-        background-color: gray;
     }
 
     .linkElement {
         margin-top: $m2-top-default;
         height: 1.8rem;
-        background-color: gray;
 
         /* HeightAdjustment - With Height */
         @media (max-height: 899px) {
@@ -80,9 +78,7 @@ $m1-bottom-custom1: 1.65rem;
 
     .buttonElement {
         margin-top: $m2-top-default;
-        height: 4.3rem;
-        background-color: gray;
-
+        text-align: right;
         /* HeightAdjustment - With Height */
         @media (max-height: 899px) {
             margin-top: $m2-top-custom1;
@@ -92,12 +88,7 @@ $m1-bottom-custom1: 1.65rem;
 }
 
 .form-message {
-    // margin-top: $m3-top-default;
-
-    // margin-top: auto;
-    height: 2.3rem;
     width: 100%;
-    background-color: red;
     margin-bottom: $m1-bottom-default;
 
     /* HeightAdjustment - With Height */
@@ -105,4 +96,29 @@ $m1-bottom-custom1: 1.65rem;
         margin-bottom: $m1-bottom-custom1;
     }
 
+}
+
+.input-box {
+    border-radius: 1rem !important;
+    border: 0 !important;
+    background-color: $color-gray-500 !important;
+    padding: 1rem 2rem !important;
+}
+
+.password-box {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.eye-icon {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border: 0 !important;
+    background-color: #F5F7FB !important;
+}
+
+.custom-btn__1 {
+    background-color: $color-primary-2!important;
+    padding: 1rem 3rem !important;
+    border-radius: 1rem !important;
 }

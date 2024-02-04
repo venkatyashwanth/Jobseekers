@@ -1,0 +1,41 @@
+// BreakPoints
+
+$breakpoints: (
+    'portrait-mobile-max': (max-width: 575px),
+    'mobile-min': (min-width: 576px),
+    'mobile-max': (max-width: 767px),
+    'ipad-min': (min-width: 768px),
+    'ipad-max': (max-width: 991px),
+    'desktop-min': (min-width: 992px),
+    'desktop-max': (max-width: 1199px),
+    'large-desktop-min': (min-width: 1200px),
+    'medium-large-desktop-min': (min-width: 1365px),
+    'medium-large-desktop-max': (max-width: 1439px),
+    'extra-large-desktop-min': (min-width: 1440px),
+    'xl-extra-large-desktop-min': (min-width: 1640px),
+    'xxl-extra-large-desktop-min': (min-width: 1840px),
+    'xxxl-extra-large-desktop-min': (min-width: 2000px),
+    'xxxxl-extra-large-desktop-min': (min-width: 2200px),
+    'four-k-tv-min': (min-width: 3800px),
+    'eight-k-tv-min': (min-width: 4200px),
+);
+
+//For screen between 768 - 1199
+
+@mixin custom-tablet {
+    @media (min-width: 320px) and (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin breakpoint($name) {
+    @if map-has-key($breakpoints, $name) {
+        @media #{inspect(map-get($breakpoints, $name))} {
+            @content;
+        }
+    }
+
+    @else {
+        @warn "Couldn't find a breakpoint named `#{$name}`.";
+    }
+}

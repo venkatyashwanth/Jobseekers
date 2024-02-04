@@ -1,8 +1,10 @@
-h1,h2,p{
+h1,
+h2,
+p {
     margin-bottom: 0 !important;
 }
 
-.brandTitleHeading{
+.brandTitleHeading {
     font-family: $secondary-font-bold;
     font-size: 2.6rem;
     line-height: 3.15rem;
@@ -11,7 +13,7 @@ h1,h2,p{
     margin-bottom: 0;
 }
 
-.landing-details-heading{
+.landing-details-heading {
     font-family: $primary-font-bold;
     font-size: 3.2rem;
     line-height: 4.1rem;
@@ -19,12 +21,52 @@ h1,h2,p{
     color: $color-white;
 }
 
-
-.landing-details-desc{
+.landing-details-desc {
     font-family: $primary-font-medium;
-    font-size:2rem;
+    font-size: 2rem;
     line-height: 2.6rem;
     text-align: center;
     color: $color-white;
 }
 
+.input {
+    &__label-text {
+        font-family: $primary-font-regular;
+        color: $color-dark;
+        font-size: 1.4rem;
+        line-height: 1.823rem;
+    }
+
+    &-box::placeholder {
+        font-family: $primary-font-regular;
+        font-size: 1.4rem;
+        line-height: 1.823rem;
+        color: $color-gray-300;
+    }
+}
+
+.custom-btn__1 {
+    font-family: $primary-font-medium;
+    font-size: 1.6rem !important;
+    line-height: 2.083rem;
+    color: $color-white !important;
+}
+
+.form-text-link{
+    font-family: $primary-font-medium;
+    font-size: 1.4rem;
+    line-height: 1.823rem;
+    color: $color-primary-2;
+}
+
+.form-message-text{
+    font-family: $primary-font-medium;
+    font-size: 1.8rem;
+    line-height: 2.344rem;
+    color: $color-black;
+    text-align: center;
+    a{
+        font-family: $primary-font-regular;
+        color: $color-primary-2;
+    }
+}

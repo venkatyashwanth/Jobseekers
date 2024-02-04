@@ -9,6 +9,17 @@
 html {
     // This defines what 1rem is
     font-size: 62.5%;
+
+    // Responsive fontSizes 
+    // Screen sizes of 1440px width and above
+    @include breakpoint(extra-large-desktop-min){
+        font-size: 62.5%;
+    }
+
+    // Screen sizes upto 1439px width
+    @include breakpoint(medium-large-desktop-max){
+        font-size: 58%;
+    }
 }
 
 body {
